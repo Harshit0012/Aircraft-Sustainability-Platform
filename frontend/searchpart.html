@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Search Parts</title>
+  <!-- Chart.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" id="role-profile" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" id="goHome">Home</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="d-flex justify-content-center" style="height: 20vh;">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+    
+  <div class="container w-25 float-left mx-5" style="background-color: black; ">
+
+  </div>
+  <div class="container w-50 float-right mx-5" style="background-color: black;">
+    <div class="col-md-4 graph-section">
+        <!-- Doughnut Chart section -->
+        <div class="chart">
+          <canvas id="myChart"></canvas>
+        </div>
+        <h4 class="my-5">Recycle Effort Analysis</h4>
+      </div>
+  </div>
+  <script>
+    const ctx = document.getElementById('myChart');
+            
+            new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Recycle', 'Repurpose'],
+                datasets: [{
+                label: '# of Votes',
+                data: [sum1, sum2],
+                borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                y: {
+                    beginAtZero: true
+                }
+                }
+            }
+            });
+  </script>
+  <!-- <script src="searchpart.js"></script> -->
+</body>
+</html>
+
+
+

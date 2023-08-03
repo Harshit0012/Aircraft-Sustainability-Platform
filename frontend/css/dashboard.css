@@ -1,0 +1,50 @@
+body {
+    background-color: #222;
+}
+
+.container {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.graph-section {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+margin-bottom: 50px;
+}
+
+.graph-section h2 {
+margin-bottom: 10px;
+}
+
+.profile-section {
+background-color: #555;
+color: #fff;
+padding: 50px;
+margin-bottom: 50px;
+}
+#chart{
+width: 300px;
+}
+.profile-section h2 {
+margin-bottom: 30px;
+margin-left: 30px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-name {
+color: white;
+}

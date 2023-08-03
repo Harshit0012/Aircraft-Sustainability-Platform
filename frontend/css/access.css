@@ -1,0 +1,34 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.login-form{
+    font-size: 20px;
+}
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-image: url('../images/istockphoto.jpg');
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main{
+    margin-top: 10%;
+    margin-right: 20%; 
+    width: 400px;
+    float: right;
+}
+
+.sidenav{
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
