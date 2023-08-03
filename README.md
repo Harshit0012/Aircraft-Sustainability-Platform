@@ -47,4 +47,4 @@ We implemented database in MySQL but for prototype we also created SQLite Databa
 To insert data from excel please run the data ingestion file after define the structure (step 3) 
 Run the data ingestion to push all excel data into database
 
-<strong><a href="https://docs.google.com/document/d/1KoRptbmsZqsTzyUJpf-s8w5kkR4fDj4dHH5sLuFSIwE/edit?usp=sharing">full description about project</a></strong>
+<strong><a href="https://docs.google.com/document/d/1bFGbP3pOvHoWRT4pxNOnCEVMLZTnhf9L1Bf4l4Ich00/edit?usp=sharing">full description about project</a></strong>
